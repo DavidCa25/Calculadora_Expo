@@ -4,10 +4,10 @@
     "slug": "calculadora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/apple.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/apple.png" ,
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

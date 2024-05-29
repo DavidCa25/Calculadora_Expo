@@ -26,7 +26,7 @@ const Calculadora = () => {
                 flex: 1,
                 paddingTop: insets.top,
                 paddingBottom: insets.bottom,
-                backgroundColor: '#fff',
+                backgroundColor: 'gray',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}
@@ -35,7 +35,7 @@ const Calculadora = () => {
                 {display}
             </Text>
             <View style={styles.buttonContainer}>
-                {['7', '8', '9', '/', '4', '5', '6', '*', '1', '2', '3', '-', '0', 'C', '=', '+'].map((value) => (
+                {['1', '2', '3', '/', '4', '5', '6', '*', '7', '8', '9', '-', '0', 'C', '=', '+'].map((value) => (
                     <TouchableOpacity
                         key={value}
                         style={styles.button}
@@ -55,9 +55,10 @@ const styles = StyleSheet.create({
         marginBottom: 40,
         textAlign: 'right',
         width: '90%',
-        backgroundColor: '#f1f1f1',
+        backgroundColor: '#232023',
         padding: 10,
-        borderRadius: 5
+        borderRadius: 5,
+        color: 'white'
     },
     buttonContainer: {
         flexDirection: 'row',
@@ -66,14 +67,14 @@ const styles = StyleSheet.create({
         width: '90%'
     },
     button: {
-        backgroundColor: 'blue',
+        backgroundColor: '#696880',
         borderRadius: 5,
         padding: 20,
         margin: 5,
         width: '20%',
         alignItems: 'center'
     },
-    buttonText: {
+    buttonText: {      
         color: 'white',
         fontSize: 20
     }
